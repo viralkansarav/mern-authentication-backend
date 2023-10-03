@@ -4,10 +4,9 @@ const cors = require('cors')
 const mongoose = require('mongoose')
 const User = require('./models/user.model');
 const jwt = require('jsonwebtoken')
-const session = require('express-session')
 const productModel = require('./models/product.model');
 
-app.use(session({secret:'mysecret'}))
+
 app.use(cors());
 app.use(express.json());
 

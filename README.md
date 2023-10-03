@@ -89,3 +89,5 @@ The backend of this application is built using Node.js and Express.js, and it in
 - User password hashing for enhanced security.
 
 Feel free to contribute or suggest improvements to this project!
+
+Veeral Kansara.
